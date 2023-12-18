@@ -1,0 +1,7 @@
+2023-12-17 19:17:29	1.1s	mad_fermi	OK	acbe827c82f476691902173990a080c8	9c62e594-190e-44cb-b2a0-e5581a5e4dde	nextflow run script1.nf
+2023-12-17 19:18:38	1.4s	grave_kalman	OK	acc6c59491df15f583c4ad8f8eb84ac7	3e1b7cc5-d015-4c59-9776-c844ee551da7	nextflow run script1.nf
+2023-12-17 19:23:28	1.3s	goofy_gutenberg	OK	acc6c59491df15f583c4ad8f8eb84ac7	97a78bb9-098a-4991-8d0a-751f0ff5a7dd	nextflow run script1.nf
+2023-12-17 19:23:59	551ms	insane_agnesi	OK	8806bbb816bb87130171c749b0d1505d	51df621d-0bf9-4c20-bf59-68efe1e0ba98	nextflow run script1.nf
+2023-12-17 19:36:09	-	trusting_lumiere	-	8116750702992f2aa2ae179c7517bafa	e3eabc50-972a-427e-b107-97438d0290df	nextflow run script1.nf
+2023-12-17 19:38:28	-	hungry_lagrange	-	c608d3ba84a7df08e836c4e3dbe18883	dedc9ff7-4bc7-42a1-ba19-1822a48d6ef1	nextflow run script1.nf
+2023-12-17 19:39:14	1.6s	backstabbing_angela	ERR	15d5e3ab8d48930e21a2fe28a848feac	5378e7d9-fff7-4dc3-8ea8-2083b832d1f4	nextflow run script1.nf

@@ -1,0 +1,86 @@
+Dec-17 19:39:14.492 [main] DEBUG nextflow.cli.Launcher - $> nextflow run script1.nf
+Dec-17 19:39:14.541 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.0
+Dec-17 19:39:14.568 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/sbalgobin/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.2,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.0
+Dec-17 19:39:14.573 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Dec-17 19:39:14.574 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Dec-17 19:39:14.576 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Dec-17 19:39:14.588 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Dec-17 19:39:14.632 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Dec-17 19:39:14.645 [main] INFO  nextflow.cli.CmdRun - Launching `script1.nf` [backstabbing_angela] DSL2 - revision: 15d5e3ab8d
+Dec-17 19:39:14.645 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Dec-17 19:39:14.645 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Dec-17 19:39:14.651 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/sbalgobin/.nextflow/secrets/store.json
+Dec-17 19:39:14.655 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@6872f9c8] - activable => nextflow.secret.LocalSecretsProvider@6872f9c8
+Dec-17 19:39:14.699 [main] DEBUG nextflow.Session - Session UUID: 5378e7d9-fff7-4dc3-8ea8-2083b832d1f4
+Dec-17 19:39:14.700 [main] DEBUG nextflow.Session - Run name: backstabbing_angela
+Dec-17 19:39:14.700 [main] DEBUG nextflow.Session - Executor pool size: 8
+Dec-17 19:39:14.706 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Dec-17 19:39:14.742 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.0 build 5889
+  Created: 15-10-2023 15:07 UTC (11:07 EDT)
+  System: Mac OS X 12.5
+  Runtime: Groovy 3.0.19 on Java HotSpot(TM) 64-Bit Server VM 21.0.1+12-LTS-29
+  Encoding: UTF-8 (UTF-8)
+  Process: 28301@Samanthas-Air.lan [192.168.1.153]
+  CPUs: 8 - Mem: 8 GB (68.1 MB) - Swap: 9 GB (1.4 GB) - Virtual threads ON
+Dec-17 19:39:14.750 [main] DEBUG nextflow.Session - Work-dir: /Users/sbalgobin/Documents/nextflow-rnaseq-pipeline/scripts/work [Mac OS X]
+Dec-17 19:39:14.750 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/sbalgobin/Documents/nextflow-rnaseq-pipeline/scripts/bin
+Dec-17 19:39:14.761 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Dec-17 19:39:14.771 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Dec-17 19:39:14.795 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Dec-17 19:39:14.801 [main] DEBUG nextflow.util.CustomPoolFactory - Creating virtual thread pool
+Dec-17 19:39:14.840 [main] DEBUG nextflow.Session - Session start
+Dec-17 19:39:15.143 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Dec-17 19:39:15.151 [main] INFO  nextflow.Nextflow - R N A S E Q - N F   P I P E L I N E
+===================================
+transcriptome: /Users/sbalgobin/Documents/nextflow-rnaseq-pipeline/data/SRR27213070.fasta
+reads        : /Users/sbalgobin/Documents/nextflow-rnaseq-pipeline/data/SSR24292984_{1,2}.fq
+outdir       : results
+
+Dec-17 19:39:15.204 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-17 19:39:15.204 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-17 19:39:15.208 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Dec-17 19:39:15.212 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=8 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Dec-17 19:39:15.213 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Dec-17 19:39:15.260 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: INDEX
+Dec-17 19:39:15.260 [main] DEBUG nextflow.Session - Igniting dataflow network (1)
+Dec-17 19:39:15.260 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > INDEX
+Dec-17 19:39:15.261 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_1ad958b91d22fb0d: /Users/sbalgobin/Documents/nextflow-rnaseq-pipeline/scripts/script1.nf
+Dec-17 19:39:15.261 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Dec-17 19:39:15.261 [main] DEBUG nextflow.Session - Session await
+Dec-17 19:39:15.346 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-17 19:39:15.348 [Task submitter] INFO  nextflow.Session - [4d/edc66c] Submitted process > INDEX
+Dec-17 19:39:15.378 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: INDEX; status: COMPLETED; exit: 127; error: -; workDir: /Users/sbalgobin/Documents/nextflow-rnaseq-pipeline/scripts/work/4d/edc66c3e3eb600b0d7d094d3be7744]
+Dec-17 19:39:15.380 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=INDEX; work-dir=/Users/sbalgobin/Documents/nextflow-rnaseq-pipeline/scripts/work/4d/edc66c3e3eb600b0d7d094d3be7744
+  error [nextflow.exception.ProcessFailedException]: Process `INDEX` terminated with an error exit status (127)
+Dec-17 19:39:15.388 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'INDEX'
+
+Caused by:
+  Process `INDEX` terminated with an error exit status (127)
+
+Command executed:
+
+  salmon index --threads 1 -t SRR27213070.fasta -i salmon_index
+
+Command exit status:
+  127
+
+Command output:
+  (empty)
+
+Command error:
+  .command.sh: line 2: salmon: command not found
+
+Work dir:
+  /Users/sbalgobin/Documents/nextflow-rnaseq-pipeline/scripts/work/4d/edc66c3e3eb600b0d7d094d3be7744
+
+Tip: when you have fixed the problem you can continue the execution adding the option `-resume` to the run command line
+Dec-17 19:39:15.391 [main] DEBUG nextflow.Session - Session await > all processes finished
+Dec-17 19:39:15.391 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `INDEX` terminated with an error exit status (127)
+Dec-17 19:39:15.400 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Dec-17 19:39:15.401 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Dec-17 19:39:15.403 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=8ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+Dec-17 19:39:15.625 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Dec-17 19:39:15.641 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
