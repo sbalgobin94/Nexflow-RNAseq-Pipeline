@@ -1,2 +1,6 @@
 
 data/
+scripts/work/
+scripts/.nextflow/
+*.code-workspace
+*.log
