@@ -3,4 +3,5 @@ data/
 scripts/work/
 scripts/.nextflow/
 *.code-workspace
-*.log
+.nextflow.log
+.DS_STORE
