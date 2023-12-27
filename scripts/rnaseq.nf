@@ -1,5 +1,5 @@
-params.reads = "/Users/sbalgobin/Documents/Nexflow-RNAseq-Pipeline/nextflow-rnaseq-pipeline/data/gingiva_{1,2}.fastq"
-params.transcriptome_file = "/Users/sbalgobin/Documents/Nexflow-RNAseq-Pipeline/nextflow-rnaseq-pipeline/data/feline_mouth.fasta"
+params.reads = "/Users/sbalgobin/Documents/Nextflow-RNAseq-Pipeline/nextflow-rnaseq-pipeline/data/gingiva_{1,2}.fastq"
+params.transcriptome_file = "/Users/sbalgobin/Documents/Nextflow-RNAseq-Pipeline/nextflow-rnaseq-pipeline/data/feline_mouth.fasta"
 params.multiqc = "/Users/sbalgobin/Documents/Nextflow-RNAseq-Pipeline/nextflow-rnaseq-pipeline/multiqc"
 params.outdir = "../results"
 
